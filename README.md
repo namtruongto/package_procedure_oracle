@@ -1,4 +1,5 @@
 # package_procedure_oracle
+```sql
 CREATE OR REPLACE EDITIONABLE PACKAGE BODY "DVC"."KB_THU_NSNN" as
 
   procedure THU_NSNN (
@@ -379,3 +380,4 @@ PROCEDURE CAN_BO
         p_error_msg := SQLERRM;
   END CAN_BO;
 END CAN_BO_CHART;
+```
